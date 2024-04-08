@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    text-align: center;
+    background-color: #8b75db;  /*cambia el color del fondo del título*/
+    padding: 20px;
+  }
+  .menu {
+    background-color: #020101;
+    overflow: hidden;
+  }
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+  }
+  .menu ul li {
+    display: inline; /* establece que un elemento ocupará el espacio del contenido del mismo y el siguiente elemento se situará a la derecha*/
+    
+}
+  .menu ul li a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .menu ul li a:hover {
+    background-color: #8b75db; /*cambia el color al pasar el cursor del mousse */
+    color: black;
+  }
+  .subtitulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .texto {
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  h2{
+    background-color: rgb(145, 132, 174);
+    color: white;
+    text-align: center;}
+
+ .titulo {
+        font-size: 1.5rem;
+        padding: 1rem;
+        margin: 1rem;
+        text-align: center;
+    }
+    
+ .texto {
+        text-align: justify;
+        padding: 1rem;
+        margin: 1rem 3rem;
+    }
+  
+
